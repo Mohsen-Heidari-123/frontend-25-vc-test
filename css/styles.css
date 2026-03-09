@@ -2,6 +2,7 @@ body {
   justify-content: center;
   align-content: center;
   background-color: grey;
+  color: white;
 }
 .flex {
   display: flex;
@@ -17,4 +18,9 @@ body {
 footer {
   justify-items: center;
   align-items: center;
+}
+@media screen and (max-width: 640px) {
+  .imgdiv {
+    width: 20%;
+  }
 }
