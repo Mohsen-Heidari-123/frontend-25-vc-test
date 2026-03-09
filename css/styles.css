@@ -18,3 +18,8 @@ footer{
   justify-items: center;
   align-items: center;
 }
+@media screen and (max-width:640px)  {
+.imgdiv{
+  width: 20%;
+}
+}
