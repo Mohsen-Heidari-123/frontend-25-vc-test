@@ -45,7 +45,7 @@ a {
   gap: 8px;
   display: flex;
   flex-direction: row;
-  max-width: 1vw;
+  justify-self: center;
 }
 
 footer{
