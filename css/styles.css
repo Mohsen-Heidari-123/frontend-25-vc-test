@@ -9,13 +9,14 @@ body{
   display: flex;
   flex-direction: column;
 }
-.imgdiv{
-justify-self: center;
-display: flex;
-flex-direction: row;
-width: 200px;
-height: 200px;
-flex-wrap: wrap;
+.imgdiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;  
+  align-items: center;      
+  width: 200px;
+  height: 200px;
 }
 footer{
   justify-items: center;
