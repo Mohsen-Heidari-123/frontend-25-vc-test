@@ -1,8 +1,13 @@
+body{
+  justify-content: center;
+  align-content: center;
+}
 .flex{
   display: flex;
   flex-direction: row;
 }
 .imgdiv{
+  justify-self: center;
 display: flex;
 flex-direction: row;
 width: 200px;
